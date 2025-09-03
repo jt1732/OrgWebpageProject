@@ -13,11 +13,9 @@ const Navbar = () => {
             </div>
             <div className={'md:hidden'}></div>
             <div className={'flex gap-4 justify-self-end mr-4 text-center items-center '}>
-                <Link className={'hidden md:block w-full border rounded-md px-5 py-2'} href={""}>HOME</Link>
-                <Link className={'hidden md:block w-full rounded-md px-5 py-2 bg-blue-400 text-white'} href={""}>LOGIN</Link>
-                <div suppressHydrationWarning>
-                    <NavDropdown></NavDropdown>
-                </div>
+                <Link className={'hidden md:block w-full border rounded-md px-5 py-2 hover:bg-gray-200'} href={""}>HOME</Link>
+                <Link className={'hidden md:block w-full rounded-md px-5 py-2 bg-blue-400 hover:bg-blue-500 text-white'} href={""}>LOGIN</Link>
+                <NavDropdown></NavDropdown>
             </div>
         </div>
 
